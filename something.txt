@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	double h1,h2,bmi;
+	cin >>h1>>h2;
+	cout <<h1<<h2;
+	bmi = h1 / h2/ h2;
+	cout <<"你的BMI是："<<bmi<<endl;
+	if(bmi<18.5){
+	}
+	    cout<<"瘦" ; 
+	return 0;
+} 
